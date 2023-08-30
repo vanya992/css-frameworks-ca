@@ -3,10 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title> StudentWEB | Log In</title>
     <link rel="stylesheet" href="/dist/css/index.css">
+    <link rel="stylesheet" href="/src/scss/index.scss">
 </head>
-<body>
-    <button class="btn btn-success">I DID IT</button>
+<body class="d-flex flex-column min-vh-100">
+   <header>
+    <p>StudentWEB</p>
+    <nav class="navbar navbar-default">
+
+    </nav>
+    </header>
+    <main class="align-center">
+        <div class="container">
+        <h1>StudentWEB</h1>
+        <p>Discover Your Global Network of Like-Minded Students.</p>
+        <p>Connect, Explore, and Grow Together.
+        </p>
+        <form class="form-control-sm container-fluid">
+            <div><label for="email">Email address</label>
+            <input type="email" id="email"  placeholder="E-mail" ></div>
+            <label for="password">Password</label>
+            <input type="password"  minlength="8" placeholder="Password">
+            <div><a href="/profile.html" class="btn btn-primary">Sign In</a></div>
+        </form>
+    </div>
+    </main>
+    <footer class="mt-auto"> Vladimira Dmitrovic &copy; All rights reserved </footer>
 </body>
 </html>
