@@ -7,34 +7,52 @@
     <link rel="stylesheet" href="/dist/css/index.css">
     <link rel="stylesheet" href="/src/scss/index.scss">
 </head>
-<body>
-    <header>
-
-    </header>
-    <main class="container">
-        <div>
-            <img src="images/profile.jpg" class="img-responsive profile">
-            <h1><i>Andrea Hoffmann</i></h1>
-            <h2>Medical University Frankfurt</h2>
-            <button class="btn">Follow</button>
+<body class="d-flex flex-column min-vh-100">
+      <header>
+            <nav class="navbar navbar-light bg-light px-2">
+                <h1 class="navbar-brand mb-0 ">StudentWEB</h1>
+                <div class="collapse">
+                    <form class="d-flex" role="search">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success" type="submit">Search</button>
+                  </form></div>
+                  <ul class="navbar-nav d-flex flex-row mb-2">
+                    <a class="nav-link" href="feed.html"><li class="nav-item me-2">Feed</li></a>
+                    <a class="nav-link active" href="profile.html"><li class="nav-item me-2">Profile</li></a>
+                    <a class="nav-link" href="index.html"><li class="nav-item me-2">Log Out</li></a>
+                  </ul>
+              </nav>
+              </header>
+       
+    <main class="container d-flex justify-content-center my-5 ">
+        <div class="">
+            <section class="d-flex flex-row justify-content-center">
+            <div class="me-3">
+                <img src="images/profile.jpg" class="img-responsive profile">
+            </div>
+            <div>
+                <h2><i>Andrea Hoffmann</i></h2>
+                <h4>Medical University Frankfurt</h4>
+                <button class="btn btn-light">Follow</button>
+            </div>
+            </section>
+            <div class="d-flex flex-row text-center justify-content-center">
+            <div class="my-4 mx-3">
+                <h5>Posts</h5>
+                <h3>23</h3>
+            </div>
+            <div class="my-4 mx-3">
+                <h5>Following</h5>
+                <h3>111</h3>
+            </div>
+            <div class="my-4 mx-3">
+                <h5>Followers</h5>
+                <h3>99</h3>
+            </div></div>
         </div>
-        <section>
-            <div>
-                <p>Posts</p>
-                <p>23</p>
-            </div>
-            <div>
-                <p>Following</p>
-                <p>111</p>
-            </div>
-            <div>
-                <p>Followers</p>
-                <p>99</p>
-            </div>
+            
         </section>
     </main>
-    <footer>
-
-    </footer>
+    <footer class="mt-auto"> Vladimira Dmitrovic &copy; All rights reserved </footer>
 </body>
 </html>
