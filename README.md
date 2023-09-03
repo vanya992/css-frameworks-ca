@@ -11,28 +11,23 @@ This app is meant to be used by students all around the world that want to conne
 To review this project I would suggest you install:
   - Github desktop
   - VSCode
-  - Install live-server: /// npm install -g live-server. ///
+  - Install live-server:
+    ```bash
+     npm install -g live-server
+    ```
 
 
 ## Instalation:
 
-``` bash
- Clone the repo to your device
-```
-
-``` bash
-Open in GitHub desktop
-```
-
-``` bash
-Open with VSCode
-```
+  - Clone the repo to your device
+  - Open in GitHub desktop
+  - Open with VSCode
 
 
 ## Built with:
 
-Html / Css
-Bootstrap
+  - Html / Css
+  - Bootstrap
 
 
 ## Contributing 
