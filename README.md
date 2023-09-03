@@ -16,7 +16,7 @@ To review this project I would suggest you install:
 
 ## Instalation:
 
-/// Clone the repo to your device ///
+////// Clone the repo to your device //////
 
 /// Open in GitHub desktop ///
 
