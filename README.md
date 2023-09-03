@@ -16,11 +16,17 @@ To review this project I would suggest you install:
 
 ## Instalation:
 
-////// Clone the repo to your device //////
+``` bash
+ Clone the repo to your device
+```
 
-/// Open in GitHub desktop ///
+``` bash
+Open in GitHub desktop
+```
 
-/// Open with VSCode ///
+``` bash
+Open with VSCode
+```
 
 
 ## Built with:
