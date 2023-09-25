@@ -15,11 +15,12 @@ $theme-colors:
 $primary: $pink;
 $secondary: $indigo;
 $cta: $blue;
+
+$body-bg: $theme-colors;
     
 .profile {
     width: 120px;
     height: 160px;
-    border-radius: 50%;
 }
 
 .post-img {
